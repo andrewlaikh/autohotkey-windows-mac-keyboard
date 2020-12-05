@@ -189,7 +189,10 @@ return
 !#Right:: SendInput {LControl Down}{PgDn}{LControl Up}
 
 ;Command d to bookmark page
-#D:: SendInput {LControl Down}{d}{LControl Up}
+#d:: SendInput {LControl Down}{d}{LControl Up}
+
+;Refresh button
+#r:: SendInput {LControl Down}{r}{LControl Up}
 
 ; Show Web Developer Tools with cmd + alt + i
 #!i::Send {F12}
