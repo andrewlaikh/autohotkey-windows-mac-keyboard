@@ -1,5 +1,4 @@
-;-----------------------------------------
-; Mac keyboard to Windows Key Mappings
+c keyboard to Windows Key Mappings
 ;=========================================
 
 ; --------------------------------------------------------------
@@ -107,6 +106,10 @@ Lwin & Tab::AltTab
 ; minimize windows
 #m::WinMinimize,a
 
+; map F6 key to delete 
+*SC040::
+SendInput {Delete}
+return
 
 ; --------------------------------------------------------------
 ; OS X keyboard mappings for special chars
@@ -179,6 +182,14 @@ Lwin & Tab::AltTab
 
 ; Google Chrome
 #IfWinActive, ahk_class Chrome_WidgetWin_1
+;Command, Option and Left to switch tabs to the left 
+!#Left:: SendInput {LControl Down}{PgUp}{LControl Up}
+
+;Command, Option and Right to switch tabs to the right
+!#Right:: SendInput {LControl Down}{PgDn}{LControl Up}
+
+;Command d to bookmark page
+#D:: SendInput {LControl Down}{d}{LControl Up}
 
 ; Show Web Developer Tools with cmd + alt + i
 #!i::Send {F12}
@@ -187,4 +198,3 @@ Lwin & Tab::AltTab
 #!u::Send ^u
 
 #IfWinActive
-
