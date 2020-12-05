@@ -10,6 +10,7 @@ This is a fork of [stroebjo's](https://github.com/stroebjo/autohotkey-windows-ma
 
 - Delete key is mapped to F6 (Couldn't find a way to map to the eject key) 
 - Command + D maps to adding the individual page to bookmark 
+- Command + R maps to refreshing the page
 - Command + Option + Left/Right maps to shifting the tabs left/right
 
 Installation
