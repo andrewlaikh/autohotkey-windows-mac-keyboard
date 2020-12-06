@@ -5,7 +5,7 @@ This [AutoHotkey](https://www.autohotkey.com/) configuration file makes usual ke
 
 If it's not working for applications running with admin permissions, it might be the problem that AHK is not, see [this question on StackOverflow](https://stackoverflow.com/a/8457852/723769).
 
-This is a fork of [stroebjo's](https://github.com/stroebjo/autohotkey-windows-mac-keyboard) configurations with the following additions: 
+This is a fork of [stroebjo's](https://github.com/stroebjo/autohotkey-windows-mac-keyboard) configurations with the following additions for Chrome keyboard shortcuts: 
 
 
 - Delete key is mapped to F6 (Couldn't find a way to map to the eject key) 
