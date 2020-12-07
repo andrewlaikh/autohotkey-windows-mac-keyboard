@@ -1,4 +1,5 @@
-c keyboard to Windows Key Mappings
+;-----------------------------------------
+; Mac keyboard to Windows Key Mappings
 ;=========================================
 
 ; --------------------------------------------------------------
@@ -34,8 +35,8 @@ RAlt & F7::SendInput {Media_Prev}
 RAlt & F8::SendInput {Media_Play_Pause}
 RAlt & F9::SendInput {Media_Next}
 F10::SendInput {Volume_Mute}
-F11::SendInput {Volume_Down}
-F12::SendInput {Volume_Up}
+F11::SendInput {Volume_Down 5}
+F12::SendInput {Volume_Up 5}
 
 ; swap left command/windows key with left alt
 ;LWin::LAlt
@@ -107,7 +108,7 @@ Lwin & Tab::AltTab
 #m::WinMinimize,a
 
 ; map F6 key to delete 
-*SC040::
+#Backspace::
 SendInput {Delete}
 return
 
@@ -201,3 +202,4 @@ return
 #!u::Send ^u
 
 #IfWinActive
+
