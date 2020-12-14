@@ -12,10 +12,11 @@ This is a fork of [stroebjo's](https://github.com/stroebjo/autohotkey-windows-ma
 - Command + D maps to adding the individual page to bookmark 
 - Command + R maps to refreshing the page
 - Command + Option + Left/Right maps to shifting the tabs left/right
+- Volume keys automatically increase volume by 10% each time on button press
 
 Installation
 ------------
 
 - Install [AutoHotkey](https://www.autohotkey.com/) 
 - Run the `MacKeyboard.ahk` file
-- Put the `MacKeyboard.ahk` file or a shortcut to the file in your Autostart folder to run it automatically on startup.
+- Put the `MacKeyboard.ahk` file or a shortcut to the file in your Autostart folder to run it automatically on startup
